@@ -14,18 +14,18 @@ services:
               count: 1
               capabilities: [gpu]
     volumes:
-      - /media/nesli/storage4/Datasets/Finger/FOESamples:/home/finperprint-analysis/datasets/foe
+      - /media/nesli/storage5/Datasets/Finger/FOESamples:/home/finperprint-analysis/datasets/foe
       - ../orientation-estimation/src:/home/finperprint-analysis/foe/src
       - ../orientation-estimation/experiments:/home/finperprint-analysis/foe/experiments
-      - ../orientation-estimation/results:/home/finperprint-analysis/foe/results
-      - /media/nesli/storage4/Datasets/Finger/NIST_SD4:/home/finperprint-analysis/datasets/fc
+      - ../orientation-estimation/output:/home/finperprint-analysis/foe/output
+      - /media/nesli/storage5/Datasets/Finger/NIST_SD4:/home/finperprint-analysis/datasets/fc
       - ../classification/src:/home/finperprint-analysis/fc/src
       - ../classification/experiments:/home/finperprint-analysis/fc/experiments
-      - ../classification/results:/home/finperprint-analysis/fc/results
-      - /media/nesli/storage4/Datasets/Finger/FVC_BERKAY_TOPCU:/home/finperprint-analysis/datasets/fmd
+      - ../classification/output:/home/finperprint-analysis/fc/output
+      - /media/nesli/storage5/Datasets/Finger/FVC_BERKAY_TOPCU:/home/finperprint-analysis/datasets/fmd
       - ../minutiae-detection/src:/home/finperprint-analysis/fmd/src
       - ../minutiae-detection/experiments:/home/finperprint-analysis/fmd/experiments
-      - ../minutiae-detection/results:/home/finperprint-analysis/fmd/results
+      - ../minutiae-detection/output:/home/finperprint-analysis/fmd/output
     init: true
     stdin_open: true
     tty: true

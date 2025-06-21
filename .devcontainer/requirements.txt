@@ -7,3 +7,5 @@ matplotlib
 ipympl
 ipykernel
 pandas
+hydra-core
+omegaconf
