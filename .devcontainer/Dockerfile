@@ -16,6 +16,7 @@ RUN python3 -m pip install -r /tmp/requirements.txt
 # Set the project directory
 ENV PROJECT_DIR=/home/finperprint-analysis
 RUN mkdir $PROJECT_DIR && \
+    mkdir $PROJECT_DIR/src && \
     mkdir $PROJECT_DIR/foe && \
     mkdir $PROJECT_DIR/fc && \
     mkdir $PROJECT_DIR/fmd

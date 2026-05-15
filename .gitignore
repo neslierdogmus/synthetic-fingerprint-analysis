@@ -131,3 +131,6 @@ dmypy.json
 # another repo
 foe/
 output/
+fc/outputs
+fmd/outputs
+foe/outputs
