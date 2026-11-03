@@ -1,0 +1,24 @@
+{
+  "task": "foe",
+  "source": "S03",
+  "condition": "R1",
+  "synthetic_n": 12,
+  "sampling_strategy": "finger_level",
+  "random_state": 42,
+  "shortfall": false,
+  "actual_count": 12,
+  "train_ids": [
+    "000013885--1.jpeg",
+    "000009517--1.jpeg",
+    "000012098--1.jpeg",
+    "000013883--1.jpeg",
+    "000006534--1.jpeg",
+    "000011696--1.jpeg",
+    "000015088--1.jpeg",
+    "000005358--1.jpeg",
+    "000020270--1.jpeg",
+    "000011664--1.jpeg",
+    "000018935--1.jpeg",
+    "000024007--1.jpeg"
+  ]
+}

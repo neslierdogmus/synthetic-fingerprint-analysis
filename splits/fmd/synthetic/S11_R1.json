@@ -1,0 +1,11 @@
+{
+  "task": "fmd",
+  "source": "S11",
+  "condition": "R1",
+  "synthetic_n": 640,
+  "sampling_strategy": "finger_level",
+  "random_state": 42,
+  "shortfall": true,
+  "actual_count": 0,
+  "train_ids": []
+}

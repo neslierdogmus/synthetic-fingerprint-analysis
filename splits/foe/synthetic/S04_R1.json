@@ -1,0 +1,24 @@
+{
+  "task": "foe",
+  "source": "S04",
+  "condition": "R1",
+  "synthetic_n": 12,
+  "sampling_strategy": "finger_level",
+  "random_state": 42,
+  "shortfall": false,
+  "actual_count": 12,
+  "train_ids": [
+    "32185--1.JPEG",
+    "20781--1.JPEG",
+    "16620--1.JPEG",
+    "5464--1.JPEG",
+    "29145--1.JPEG",
+    "7717--1.JPEG",
+    "19785--1.JPEG",
+    "45144--1.JPEG",
+    "30767--1.JPEG",
+    "27852--1.JPEG",
+    "941--1.JPEG",
+    "519--1.JPEG"
+  ]
+}

@@ -1,0 +1,5 @@
+task: fc
+max_steps: 1250
+batch_size: 256
+input_size: [512, 512]
+num_classes: 5

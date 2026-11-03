@@ -1,0 +1,5 @@
+task: foe
+max_steps: 1250
+batch_size: 32
+input_size: [478, 448]
+n_decoder_stages: 2

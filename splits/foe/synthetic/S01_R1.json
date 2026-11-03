@@ -1,0 +1,24 @@
+{
+  "task": "foe",
+  "source": "S01",
+  "condition": "R1",
+  "synthetic_n": 12,
+  "sampling_strategy": "finger_level",
+  "random_state": 42,
+  "shortfall": false,
+  "actual_count": 12,
+  "train_ids": [
+    "FVC2006_DB4_A_83--2.bmp",
+    "FVC2004_DB4_A_31--2.tif",
+    "FVC2006_DB4_A_94--8.bmp",
+    "FVC2000_DB4_A_62--7.tif",
+    "FVC2004_DB4_A_51--7.tif",
+    "FVC2000_DB4_A_92--5.tif",
+    "FVC2002_DB4_B_106--8.tif",
+    "FVC2006_DB4_A_19--5.bmp",
+    "FVC2006_DB4_A_59--7.bmp",
+    "FVC2002_DB4_A_62--8.tif",
+    "FVC2004_DB4_A_30--2.tif",
+    "FVC2004_DB4_A_94--1.tif"
+  ]
+}

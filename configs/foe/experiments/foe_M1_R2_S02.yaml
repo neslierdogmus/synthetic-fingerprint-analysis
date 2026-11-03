@@ -1,0 +1,10 @@
+experiment_id: foe_M1_R2_S02
+task: foe
+model_id: M1
+condition: R2
+synthetic_source: S02
+real_n: 24
+synthetic_n: 24
+split_file_real: splits/foe/real_split.json
+split_file_synthetic: splits/foe/synthetic/S02_R2.json
+output_dir: outputs/foe/foe_M1_R2_S02

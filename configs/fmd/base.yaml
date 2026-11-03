@@ -1,0 +1,8 @@
+task: fmd
+max_steps: 2500
+batch_size: 128
+input_size: [374, 388]
+n_decoder_stages: 4
+fmd_nms_thresholds: [0.4, 0.5, 0.6, 0.7, 0.8]
+fmd_nms_radii: [6, 8, 10, 12, 14, 16]
+fmd_matching_distance: 12

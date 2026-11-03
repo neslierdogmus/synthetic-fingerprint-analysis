@@ -1,0 +1,49 @@
+\begin{table}[htbp]
+\centering
+\caption{Per-condition tuning vs. Fixed-HP, split by condition type.}
+\label{tab:fixedhp:by_condition_type}
+\begin{tabular}{lllrllll}
+\toprule
+\toprule
+ &  &  & n & mean_delta & std_delta & win_frac & p_greater \\
+\midrule
+task & model & condition_type &  &  &  &  &  \\
+\midrule
+\multirow[t]{9}{*}{fc} & \multirow[t]{3}{*}{M1} & baseline & 1 & -0.0137 & 0.0000 & 0.0% & n/a \\
+ &  & substitution & 44 & 0.0012 & 0.0155 & 56.8% & 0.2312 \\
+ &  & volume & 33 & -0.0010 & 0.0165 & 48.5% & 0.3542 \\
+\cline{2-8}
+ & \multirow[t]{3}{*}{M2} & baseline & 1 & -0.0042 & 0.0000 & 0.0% & n/a \\
+ &  & substitution & 44 & 0.0039 & 0.0232 & 54.5% & 0.2893 \\
+ &  & volume & 33 & 0.0013 & 0.0117 & 48.5% & 0.2301 \\
+\cline{2-8}
+ & \multirow[t]{3}{*}{M3} & baseline & 1 & -0.0029 & 0.0000 & 0.0% & n/a \\
+ &  & substitution & 44 & 0.0006 & 0.0160 & 47.7% & 0.562 \\
+ &  & volume & 33 & -0.0024 & 0.0074 & 36.4% & 0.9529 \\
+\cline{1-8} \cline{2-8}
+\multirow[t]{9}{*}{fmd} & \multirow[t]{3}{*}{M1} & baseline & 1 & -0.0004 & 0.0000 & 0.0% & n/a \\
+ &  & substitution & 44 & -0.0012 & 0.0104 & 50.0% & 0.3709 \\
+ &  & volume & 33 & -0.0026 & 0.0115 & 42.4% & 0.9416 \\
+\cline{2-8}
+ & \multirow[t]{3}{*}{M2} & baseline & 1 & -0.0075 & 0.0000 & 0.0% & n/a \\
+ &  & substitution & 44 & -0.0088 & 0.0071 & 9.1% & 1 \\
+ &  & volume & 33 & -0.0023 & 0.0098 & 57.6% & 0.57 \\
+\cline{2-8}
+ & \multirow[t]{3}{*}{M3} & baseline & 1 & -0.0338 & 0.0000 & 0.0% & n/a \\
+ &  & substitution & 44 & -0.0430 & 0.0373 & 18.2% & 1 \\
+ &  & volume & 33 & -0.0018 & 0.0170 & 45.5% & 0.7018 \\
+\cline{1-8} \cline{2-8}
+\multirow[t]{9}{*}{foe} & \multirow[t]{3}{*}{M1} & baseline & 1 & 0.0399 & 0.0000 & 100.0% & n/a \\
+ &  & substitution & 44 & 0.0781 & 0.5347 & 50.0% & 0.4839 \\
+ &  & volume & 33 & 0.0597 & 0.1091 & 78.8% & 0.001458 \\
+\cline{2-8}
+ & \multirow[t]{3}{*}{M2} & baseline & 1 & 0.1589 & 0.0000 & 100.0% & n/a \\
+ &  & substitution & 44 & -0.0812 & 0.3731 & 38.6% & 0.9454 \\
+ &  & volume & 33 & -0.0289 & 0.2109 & 54.5% & 0.6043 \\
+\cline{2-8}
+ & \multirow[t]{3}{*}{M3} & baseline & 1 & -0.0100 & 0.0000 & 0.0% & n/a \\
+ &  & substitution & 44 & -0.0247 & 0.1956 & 43.2% & 0.7895 \\
+ &  & volume & 33 & -0.0403 & 0.1168 & 42.4% & 0.935 \\
+\cline{1-8} \cline{2-8}
+\bottomrule
+\end{tabular}\end{table}

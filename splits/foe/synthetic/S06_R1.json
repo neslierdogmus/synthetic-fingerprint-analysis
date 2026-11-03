@@ -1,0 +1,24 @@
+{
+  "task": "foe",
+  "source": "S06",
+  "condition": "R1",
+  "synthetic_n": 12,
+  "sampling_strategy": "finger_level",
+  "random_state": 42,
+  "shortfall": false,
+  "actual_count": 12,
+  "train_ids": [
+    "F_84832--2.jpg",
+    "F_27990--2.jpg",
+    "F_30173--2.jpg",
+    "F_74156--1.jpg",
+    "F_62603--2.jpg",
+    "F_93793--1.jpg",
+    "F_90134--2.jpg",
+    "F_76317--2.jpg",
+    "F_35746--2.jpg",
+    "F_37117--1.jpg",
+    "F_79630--2.jpg",
+    "F_65118--1.jpg"
+  ]
+}

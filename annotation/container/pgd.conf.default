@@ -1,0 +1,5 @@
+mode = single
+trial = true
+https = true
+StoragePath = /workspace/annotation_src/pgd_run/pgd_store
+LicenceUsageLogFile = /workspace/LicenceUsage.log

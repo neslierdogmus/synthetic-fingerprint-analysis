@@ -1,11 +1,23 @@
-torch==2.5.1
-torchvision==0.20.1
-scikit-learn
-scikit-image
-flake8
-matplotlib
-ipympl
+# Augmentation
+albumentations==1.4.22
+
+# Config & validation
+pyyaml==6.0.2
+pydantic==2.10.6
+
+# Data & analysis
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.6.1
+matplotlib==3.10.0
+seaborn==0.13.2
+scipy==1.13.0
+opencv-python-headless==4.10.0.84
+huggingface_hub==0.26.5
+
+# Utilities
+tqdm==4.67.1
+
+# Dev / notebook
 ipykernel
-pandas
-hydra-core
-omegaconf
+ipympl

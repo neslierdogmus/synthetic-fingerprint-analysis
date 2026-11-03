@@ -1,0 +1,10 @@
+experiment_id: fc_M1_V3_S04
+task: fc
+model_id: M1
+condition: V3
+synthetic_source: S04
+real_n: 3200
+synthetic_n: 22400
+split_file_real: splits/fc/real_split.json
+split_file_synthetic: splits/fc/synthetic/S04_V3.json
+output_dir: outputs/fc/fc_M1_V3_S04

@@ -1,0 +1,10 @@
+experiment_id: foe_M3_V0
+task: foe
+model_id: M3
+condition: V0
+synthetic_source: null
+real_n: 48
+synthetic_n: 0
+split_file_real: splits/foe/real_split.json
+split_file_synthetic: null
+output_dir: outputs/foe/foe_M3_V0

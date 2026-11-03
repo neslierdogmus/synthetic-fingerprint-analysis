@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "Task-Dependent Utility of Synthetic Fingerprint Images"
+authors:
+  - family-names: "Erdoğmuş"
+    given-names: "Nesli"
+    affiliation: "Department of Computer Engineering, İzmir Institute of Technology, Urla, İzmir, Türkiye"
+repository-code: "https://github.com/neslierdogmus/synthetic-fingerprint-analysis"
+license: MIT
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23926910"
+    description: "Synthetic images and annotations (Zenodo)"
+preferred-citation:
+  type: article
+  title: "Task-Dependent Utility of Synthetic Fingerprint Images"
+  authors:
+    - family-names: "Erdoğmuş"
+      given-names: "Nesli"
+  journal: "Journal of Electronic Imaging"
+  year: 2026

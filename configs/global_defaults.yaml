@@ -1,0 +1,28 @@
+n_folds: 4
+n_seeds: 3
+dev_mode: false
+hp_grid:
+  - {lr: 3.0e-5, weight_decay: 0,      cosine_annealing: false}
+  - {lr: 3.0e-5, weight_decay: 0,      cosine_annealing: true}
+  - {lr: 3.0e-5, weight_decay: 1.0e-5, cosine_annealing: false}
+  - {lr: 3.0e-5, weight_decay: 1.0e-5, cosine_annealing: true}
+  - {lr: 3.0e-5, weight_decay: 1.0e-4, cosine_annealing: false}
+  - {lr: 3.0e-5, weight_decay: 1.0e-4, cosine_annealing: true}
+  - {lr: 3.0e-5, weight_decay: 5.0e-4, cosine_annealing: false}
+  - {lr: 3.0e-5, weight_decay: 5.0e-4, cosine_annealing: true}
+  - {lr: 1.0e-4, weight_decay: 0,      cosine_annealing: false}
+  - {lr: 1.0e-4, weight_decay: 0,      cosine_annealing: true}
+  - {lr: 1.0e-4, weight_decay: 1.0e-5, cosine_annealing: false}
+  - {lr: 1.0e-4, weight_decay: 1.0e-5, cosine_annealing: true}
+  - {lr: 1.0e-4, weight_decay: 1.0e-4, cosine_annealing: false}
+  - {lr: 1.0e-4, weight_decay: 1.0e-4, cosine_annealing: true}
+  - {lr: 1.0e-4, weight_decay: 5.0e-4, cosine_annealing: false}
+  - {lr: 1.0e-4, weight_decay: 5.0e-4, cosine_annealing: true}
+  - {lr: 3.0e-4, weight_decay: 0,      cosine_annealing: false}
+  - {lr: 3.0e-4, weight_decay: 0,      cosine_annealing: true}
+  - {lr: 3.0e-4, weight_decay: 1.0e-5, cosine_annealing: false}
+  - {lr: 3.0e-4, weight_decay: 1.0e-5, cosine_annealing: true}
+  - {lr: 3.0e-4, weight_decay: 1.0e-4, cosine_annealing: false}
+  - {lr: 3.0e-4, weight_decay: 1.0e-4, cosine_annealing: true}
+  - {lr: 3.0e-4, weight_decay: 5.0e-4, cosine_annealing: false}
+  - {lr: 3.0e-4, weight_decay: 5.0e-4, cosine_annealing: true}

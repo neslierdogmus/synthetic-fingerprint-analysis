@@ -1,33 +1,39 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.191.1/containers/docker-from-docker-compose
 {
-	"name": "FPA Container",
-	"dockerComposeFile": "docker-compose.yml",
-	"service": "fingerprint-analysis",
-	"workspaceFolder": "/home/finperprint-analysis",
-
-	// Use this environment variable if you need to bind mount your local source code into a new container.
-	//"remoteEnv": {
-	//	"LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
-	//},
-	
-	// Set *default* container specific settings.json values on container create.
-	"settings": {},
-
-	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [
-		"ms-azuretools.vscode-docker",
-		"ms-toolsai.jupyter",
-		"ms-python.python"
-	],
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "conda activate ",
-
-	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	// "remoteUser": "csigb",
-	"updateRemoteUserUID": false
+    "name": "fingerprint-analysis",
+    "image": "fingerprint-analysis:latest",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+    "workspaceFolder": "/workspace",
+    "runArgs": [
+        "--gpus", "all",
+        "--init",
+        "--user", "root",
+        "--shm-size", "16g"
+    ],
+    "mounts": [
+        "source=/opt/data/FP_Real,target=/data/real,type=bind,readonly",
+        "source=/opt/data/FP_Synth,target=/data/synthetic,type=bind,readonly"
+    ],
+    "postCreateCommand": "mkdir -p /workspace/outputs /workspace/splits /workspace/configs && chmod -R 777 /workspace/outputs /workspace/splits /workspace/configs",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "ms-azuretools.vscode-docker",
+                "GitHub.copilot",
+                "GitHub.copilot-chat"
+            ],
+            "settings": {
+		"python.defaultInterpreterPath": "/usr/bin/python3",
+                "files.watcherExclude": {
+                    "**/data/**": true,
+                    "**/outputs/**": true,
+                    "**/splits/**": true
+                },
+                "files.exclude": {
+                    "**/data/**": true
+                }
+            }
+        }
+    }
 }

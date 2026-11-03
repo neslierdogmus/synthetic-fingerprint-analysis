@@ -1,0 +1,10 @@
+experiment_id: fmd_M2_R2_S07
+task: fmd
+model_id: M2
+condition: R2
+synthetic_source: S07
+real_n: 1280
+synthetic_n: 1280
+split_file_real: splits/fmd/real_split.json
+split_file_synthetic: splits/fmd/synthetic/S07_R2.json
+output_dir: outputs/fmd/fmd_M2_R2_S07

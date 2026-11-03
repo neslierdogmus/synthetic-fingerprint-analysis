@@ -1,0 +1,90 @@
+{
+  "16px_pi/6__type_aware": {
+    "dist_thresh_px": 16.0,
+    "angle_thresh_deg": 30.0,
+    "type_aware": true,
+    "recall": 0.7287523182196073,
+    "precision": 0.6529811191015099,
+    "f1": 0.6887891563534158,
+    "total_gt": 31274,
+    "total_detected": 34903,
+    "total_matched": 22791
+  },
+  "16px_pi/6__type_agnostic": {
+    "dist_thresh_px": 16.0,
+    "angle_thresh_deg": 30.0,
+    "type_aware": false,
+    "recall": 0.8916032487049945,
+    "precision": 0.7988998080394235,
+    "f1": 0.8427097027668222,
+    "total_gt": 31274,
+    "total_detected": 34903,
+    "total_matched": 27884
+  },
+  "12px_pi/8__type_aware": {
+    "dist_thresh_px": 12.0,
+    "angle_thresh_deg": 22.5,
+    "type_aware": true,
+    "recall": 0.7136599091897423,
+    "precision": 0.6394579262527577,
+    "f1": 0.6745243815827251,
+    "total_gt": 31274,
+    "total_detected": 34903,
+    "total_matched": 22319
+  },
+  "12px_pi/8__type_agnostic": {
+    "dist_thresh_px": 12.0,
+    "angle_thresh_deg": 22.5,
+    "type_aware": false,
+    "recall": 0.8763189870179702,
+    "precision": 0.7852047101968312,
+    "f1": 0.8282635961134533,
+    "total_gt": 31274,
+    "total_detected": 34903,
+    "total_matched": 27406
+  },
+  "8px_pi/10__type_aware": {
+    "dist_thresh_px": 8.0,
+    "angle_thresh_deg": 18.0,
+    "type_aware": true,
+    "recall": 0.6787747010296092,
+    "precision": 0.6081998682061713,
+    "f1": 0.641552200915726,
+    "total_gt": 31274,
+    "total_detected": 34903,
+    "total_matched": 21228
+  },
+  "8px_pi/10__type_agnostic": {
+    "dist_thresh_px": 8.0,
+    "angle_thresh_deg": 18.0,
+    "type_aware": false,
+    "recall": 0.8257658118564942,
+    "precision": 0.7399077443199725,
+    "f1": 0.7804826450277286,
+    "total_gt": 31274,
+    "total_detected": 34903,
+    "total_matched": 25825
+  },
+  "15px_30deg_default__type_aware": {
+    "dist_thresh_px": 15.0,
+    "angle_thresh_deg": 30.0,
+    "type_aware": true,
+    "recall": 0.7273453987337725,
+    "precision": 0.651720482480016,
+    "f1": 0.6874593892137753,
+    "total_gt": 31274,
+    "total_detected": 34903,
+    "total_matched": 22747
+  },
+  "15px_30deg_default__type_agnostic": {
+    "dist_thresh_px": 15.0,
+    "angle_thresh_deg": 30.0,
+    "type_aware": false,
+    "recall": 0.8906759608620579,
+    "precision": 0.7980689339025299,
+    "f1": 0.8418332653338774,
+    "total_gt": 31274,
+    "total_detected": 34903,
+    "total_matched": 27855
+  }
+}

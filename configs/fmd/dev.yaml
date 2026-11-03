@@ -1,0 +1,7 @@
+dev_mode: true
+max_steps: 100
+n_folds: 2
+n_seeds: 2
+hp_grid:
+  - {lr: 1.0e-4, weight_decay: 0,      cosine_annealing: false}
+  - {lr: 1.0e-4, weight_decay: 1.0e-5, cosine_annealing: true}

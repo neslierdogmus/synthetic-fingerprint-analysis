@@ -1,0 +1,12 @@
+experiment_id: fc_M3_R3_S04
+task: fc
+model_id: M3
+condition: R3
+synthetic_source: S04
+real_n: 800
+synthetic_n: 2400
+split_file_real: splits/fc/real_split.json
+split_file_synthetic: splits/fc/synthetic/S04_R3.json
+output_dir: outputs/fc/fc_M3_R3_S04
+batch_size: 64
+max_steps: 5000

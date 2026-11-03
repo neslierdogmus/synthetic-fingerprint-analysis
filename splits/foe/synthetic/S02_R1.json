@@ -1,0 +1,24 @@
+{
+  "task": "foe",
+  "source": "S02",
+  "condition": "R1",
+  "synthetic_n": 12,
+  "sampling_strategy": "finger_level",
+  "random_state": 42,
+  "shortfall": false,
+  "actual_count": 12,
+  "train_ids": [
+    "8162--Bad_15.jpg",
+    "115--Bad_39.jpg",
+    "9575--Bad_49.jpg",
+    "8507--Bad_44.jpg",
+    "7066--Bad_74.jpg",
+    "4471--Bad_32.jpg",
+    "3993--Bad_7.jpg",
+    "1322--Bad_19.jpg",
+    "1250--Bad_26.jpg",
+    "835--Bad_73.jpg",
+    "8293--Good_8.jpg",
+    "5723--Good_6.jpg"
+  ]
+}
